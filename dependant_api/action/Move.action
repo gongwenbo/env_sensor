@@ -1,0 +1,14 @@
+#goal definition
+float32 turn180_order
+float32 walk_around_order
+---
+#result definition
+float32 turn180_sequence
+float32 walk_around_sequence
+---
+#feedback
+float32 turn180_sequence
+float32 turn180_data1
+float32 turn180_data2
+float32 turn180_data3
+float32 walk_around_sequence

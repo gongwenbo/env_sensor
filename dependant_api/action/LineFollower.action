@@ -1,0 +1,12 @@
+#goal definition
+int8 xs
+int8 ys
+string epcs
+---
+#result definition
+int8 infrarednu
+geometry_msgs/PoseStamped pose_output
+---
+#feedback
+int8 infrarednu
+geometry_msgs/PoseStamped pose_output

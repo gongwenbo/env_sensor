@@ -1,0 +1,11 @@
+uint32 status
+uint32 powerlevel
+uint32 uptime
+uint32 timeleft
+uint32 chargetime
+float32 position_x
+float32 position_y
+float32 position_z
+string tag_epc
+int32 rec_hor
+int32 rec_ver

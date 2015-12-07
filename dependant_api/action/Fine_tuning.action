@@ -1,0 +1,18 @@
+#goal definition
+#int8 x
+#int8 y
+#string epc
+
+float32 walk_order
+float32 fine_turing_line_follower_order
+string ir
+---
+#result definition
+float32 fine_turing_line_follower_sequence
+float32 walk_sequence
+geometry_msgs/PoseStamped pose_output
+---
+#feedback
+float32 fine_turing_line_follower_sequence
+geometry_msgs/PoseStamped pose_output
+float32 walk_sequence
